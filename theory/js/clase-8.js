@@ -33,7 +33,5 @@ if( score >= 9){
 // Condicion ternaria
 
 let scoreTer = 8;
-
 let result = scoreTer >= 5 ? 'Aprobado' : 'Suspenso';
-
 console.log( result );
