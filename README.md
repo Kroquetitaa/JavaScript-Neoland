@@ -5,3 +5,4 @@
 - Tipos de datos
 - Operadores logicos
 - Operadores aritmeticos
+- Condicionales
