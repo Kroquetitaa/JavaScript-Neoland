@@ -7,3 +7,5 @@
 - Operadores aritmeticos
 - Condicionales
 - Bucles
+- ForEach, For-in,For-of
+- Array Methods
