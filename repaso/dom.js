@@ -19,17 +19,18 @@ const iteratorCharacters = (array, container) => {
 }
 
 const generateHTML = element => {
-    return  `
+   let myFigure;
+   if( "name" in element ){
+    myFigure = `
     <figure>
-    <h2>${element.name}</h2>
-    <img src="${element.image} alt="${element.name} width="200px">
-    <p>${ element.age }</p>
-    <p>${ element.location }</p>
+    <h2> ${element.name}</h2>
+    <img src="${element.image} alt="${element.image}>
     </figure>
-    `;
+    `
+   }
 }
 
-const printToDocument= (container, array) => {
+const printToDocument = (container, array) => {
     container.innerHTML += iteratorCharacters( array );
 }
 
